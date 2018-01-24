@@ -50,6 +50,6 @@ app.use(function(err, req, res, next) {
 
 // listen on port 3000
 app.listen(port, function () {
-  console.log('Express app listening on port 'port);
+  console.log('Express app listening on port ' + port);
 });
 
