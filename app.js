@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const app = express();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 // use sessions for tracking logins
 app.use(session({
   secret: 'something secret',
