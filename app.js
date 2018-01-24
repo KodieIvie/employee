@@ -1,9 +1,9 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var session = require('express-session');
-var app = express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const app = express();
 
-
+const port = ENV.port || 3000;
 // use sessions for tracking logins
 app.use(session({
   secret: 'something secret',
@@ -49,7 +49,7 @@ app.use(function(err, req, res, next) {
 });
 
 // listen on port 3000
-app.listen(3000, function () {
-  console.log('Express app listening on port 3000');
+app.listen(port, function () {
+  console.log('Express app listening on port 'port);
 });
 
