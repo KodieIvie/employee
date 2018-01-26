@@ -57,3 +57,24 @@ p.name {
 	font-size: 1em;
 	color: #555;
 }
+
+.modal-footer {
+	margin: 0 auto;
+}
+
+.search {
+	
+}
+span img {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+.title span {
+	float: right;
+	margin-right: 20px;
+}
+.uName {
+	display: none;
+}
